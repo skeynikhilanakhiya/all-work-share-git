@@ -1,0 +1,241 @@
+* {
+  /* margin: 0 0; */
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  /* width: 90%; */
+  /* margin: 0 auto;  */
+  padding: 1%;
+  /* margin-left: auto; */
+}
+
+.containers {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1%;
+}
+#tags .autocomplete{
+  font-family: cursive;
+}
+
+.img-responsive {
+  width: 90%;
+  border: none;
+
+}
+
+.img-curve {
+  border-radius: 15px;
+}
+
+h3 {
+  background-color: aquamarine;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-right :hover{
+  color: #181a18;
+  font-family: cursive;
+}
+.text-center {
+  text-align: center;
+  /* margin: auto; */
+}
+
+.text-rgb {
+  color: rgb(15, 14, 14);
+  background-color: #3dec2d;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: #502dec;
+  text-decoration: none;
+}
+
+a :hover {
+  background-color: #fa9e3b;
+  border-radius: 24px;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #55566e;
+  color: rgb(241, 240, 240);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgb(49, 72, 72);
+  color: rgb(241, 234, 234);
+  font-family: cursive;
+
+}
+#tags{
+  font-family:cursive;
+}
+h2 {
+  font-size: 2rem;
+  margin: auto;
+}
+
+.text-centers {
+  text-align: center;
+  margin-left: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.float-container {
+  position: relative;
+}
+
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+
+/* css for navbar section */
+.logo img {
+
+  width: 5%;
+  margin-left: 0;
+  float: left;
+
+
+}
+
+/* .menu{
+   line-height: 60px;
+ } */
+.menu ul {
+  list-style-type: none;
+}
+
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+
+.menu text-right ul li :hover {
+  color: hsl(115, 18%, 27%);
+}
+
+/* css for shoes search section */
+
+.shoes-search {
+  background-image: url(image/7shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.shoes-search input[type="search"]:focus {
+  background-color: #03e5f5;
+}
+
+.shoes-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border:2px dotted ;
+  border-radius: 5px;
+}
+
+/* css for categories */
+.categories {
+  padding: 5%;
+  text-align: center;
+  /* margin: auto; */
+}
+
+.box-3 {
+
+  width: 30%;
+  float: left;
+  margin: 1%;
+}
+
+::selection {
+  background-color: #3dec2d;
+}
+
+/* css for shoes menu */
+.shoes-menu {
+  background: linear-gradient(rgb(142, 241, 142) 50%, rgb(246, 246, 154) 50%);
+  padding: 2%;
+  float: left;
+}
+
+.shoes-menu-box:hover {
+  background-color: #ddfff7;
+ font-family: cursive;
+
+}
+
+.shoes-menu-box {
+
+  width: 25%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: rgb(247, 245, 244);
+  border-radius: 15px;
+  border: groove burlywood;
+
+}
+
+.shoes-menu-img {
+  width: 20%;
+  float: left;
+}
+
+.shoes-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.shoes-price {
+  font-size: 1.2rem;
+  margin: 1% 0;
+}
+
+.shoes-detail {
+  font-size: 0.8rem;
+  color: rgb(30, 30, 226);
+}
+
+/* css for social */
+.social ul {
+  list-style-type: none;
+}
+
+.social ul li {
+  display: inline;
+  padding: 0%;
+}
+
+.footer {
+  background-color: #2ddfec;
+}

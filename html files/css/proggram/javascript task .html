@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <script>
+     let a;
+     let Data;
+     let time;
+     setInterval(() => {
+        
+       a = new Date();
+       let Data = a.toLocaleDateString();
+       let time = a.getHours() +':'+ a.getMinutes() +':'+ a.getSeconds();  
+       document.getElementById('time').innerHTML= time +" on "+Data ;
+      }
+       , 1000);
+      
+        </script>
+
+</head>
+<body>
+    <h3 class="display-4">  Time , Date :<span id="time"></span></h3>
+</body>
+</html>

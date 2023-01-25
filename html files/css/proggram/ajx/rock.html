@@ -1,0 +1,68 @@
+
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<link rel="stylesheet" href="style win.css">
+    <!-- <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script> -->
+
+	<title>Rock Paper Scissor</title>
+</head>
+<body>
+	<section class="game">
+		<!--Title -->
+		<div class="title">Rock Paper Scissor</div>
+		
+		<!--Display Score of player and computer -->
+		<div class="score">
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+
+			</div>	
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+
+			</div>
+		</div>
+	
+		<div class="move">Choose your move</div>
+		
+		<!--Number of moves left before game ends -->
+		<div class="movesleft">Moves Left: 10 </div>
+		
+		<!--Options available to player to play game -->
+		<div class="options">
+     
+			 <button class="rock" onmousemove="">Rock </button>
+			<button class="paper">Paper</button>
+			<button class="scissor">Scissors</button> 
+            <!-- <button class="fas fa-hand-rock" id="rock"></button>
+        <button class="fas fa-hand-paper" id="paper"></button>
+        <button class="fas fa-hand-scissors" id="scissors"></button> -->
+
+		</div>
+ 
+         <div class="random">
+            <button id="player1"></button>
+            <button id="computer1" ></button>
+        </div>
+		<!-- <button onclick="myFunction()">Click me</button> -->
+		<!--Final result of game -->
+		<div class="result"></div>
+		
+		<!--Reload the game -->
+		<button class="reload"></button>
+
+	</section>
+
+
+	<script src="app.js"></script>
+</body>
+</html>

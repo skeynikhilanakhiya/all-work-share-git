@@ -1,0 +1,246 @@
+body {
+  background-image: url('css/QDO40f0 (1).jpg');
+  background-size: cover;
+
+}
+
+
+#customers th {
+  background-color: chartreuse;
+  padding: 2px;
+
+  font-family: serif;
+
+}
+
+#wugs {
+  background-color: yellow;
+  display: inline;
+
+}
+
+#wugs tr {
+  background-color: blueviolet;
+  border: 2px solid white;
+}
+
+#customers tr {
+  font-family: cursive;
+  color: #f2f2f2;
+  padding: 2px;
+  border: 2px solid blue;
+  background-color: black;
+}
+
+#customers tr:nth-child(odd) {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+#customers tr:hover {
+  background-color: rgb(239, 184, 112);
+}
+
+#customers th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  height: 20px;
+  background-color: aqua;
+
+}
+
+p {
+  color: yellow;
+
+}
+
+.ex-1 {
+  display: block;
+  color: blue;
+}
+
+div {
+  color: rgb(250, 248, 248);
+
+}
+
+.ab1 {
+  border: 3px solid rgb(230, 240, 230);
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 3px;
+}
+
+.bc2 {
+  border: 3px solid rgb(241, 250, 241);
+  margin-bottom: 3px;
+  margin: auto;
+  max-width: 500px;
+}
+
+.cd1 {
+  border: 3px solid white;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 3px;
+
+}
+
+img {
+  opacity: 1.0;
+  height: 120px;
+  width: 120px;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ad0f0f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+;
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  border: dotted;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: yellow
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+
+ input[type=search] {
+
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  /* background-color: white; */
+  background-image: url('css/search.png');
+  background-size: 21px;
+  /* background: url(css/search.png) center center cover no-repeat fixed; */
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+input[type=search]:focus{
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: black;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.ab {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a::after{
+  content: "("attr(href)")";
+  color: yellow;
+}
+a{
+color: yellow;  
+}

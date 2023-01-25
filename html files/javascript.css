@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("image/0499c5d9d0c0467d822ea684db37d1fa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: cadetblue;
+    text-align: center;
+
+}
+
+#demo {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#demo1 {
+    background-color: rgb(245, 162, 178);
+    border: 3px dotted yellow;
+    width: fit-content;
+    border-radius: 6px;
+
+
+}
+
+#demo2 {
+    background-color: rgb(253, 166, 184);
+    border: 3px dotted yellow;
+    width: fit-content;
+    border-radius: 6px;
+
+
+}
+
+button:focus {
+    background-color: rgb(232, 152, 103);
+}
+/* p{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+} */
+
+#demo3 {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+.text-suscess{
+    color: rgb(18, 19, 18);
+}
+#demo4 {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#gg {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#hh {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#nn {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#lo {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#lp {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#lm {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#oo {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#uu {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#cc {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#zz {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#n_class {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#b_class {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#pn {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#er{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px; 
+}
+#task{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px; 
+}
+#bdiv{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#bdiva{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#jon{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#java{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+.bg-promary{
+    background-color: blueviolet;
+    background-color: blueviolet;
+}
+/* .container{
+    background-color: rgb(101, 226, 43);
+    margin: 3px 0;
+    padding: 3px;
+    border: 2px solid red;
+} */
+#sum{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#num{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+/* #container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+  }
+  #heart{
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    /* transform-origin: center; */
+    /* position: relative;
+    background: red;
+    margin: 10px auto;
+ }
+ #heart::before, #heart::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+ }
+ 
+ #heart::before{
+    left: -50px;
+ }
+ #heart::after{
+    top: -50px;
+ }
+ 
+element.style {
+    top: 39px;
+    /* left: -115px;} */ 
+#container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: beige;
+}
+#heart{
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    transform-origin: left;
+    position: relative;
+    background-color: red;
+    margin: 10px auto;
+
+}
+#heart::before, #heart::after{
+    content:"" ;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+#heart::before{
+    left: -50px;
+}
+#heart::after{
+    top: -50px;
+}
+
+.over{
+    width: 100px;
+    height: 90px;
+    background: red;
+    text-align: center;
+}

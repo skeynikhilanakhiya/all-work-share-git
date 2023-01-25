@@ -1,0 +1,153 @@
+body {
+    background-image: url("image/wp2532971.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
+}
+
+
+nav {
+    background-color: rgb(249, 121, 121);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+
+}
+
+nav a:hover {
+
+    color: black;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+img {
+    width: 80px;
+    height: 40px;
+    color: #333;
+    border-radius: 9px;
+    float: left;
+    margin-right: 1157px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+h1::first-letter {
+    color: red;
+    font-size: larger;
+}
+
+::selection {
+    color: #7c13e4;
+}
+        
+section {
+    align-items: center;
+    padding-left: 490px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-right: 350px;
+}
+
+.form_class {
+    width: 550px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(254, 250, 250);
+    font-family: 'system-ui';
+    border: 10px solid transparent;
+    color: #7c13e4;
+    border-image: url("image/images.jpg") 20 stretch;
+    box-shadow: 50px 50px 10px rgba(26, 23, 23, 0.3);
+}
+
+.form_div {
+    text-transform: uppercase;
+}
+
+.form_div>label {
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.field_class {
+    width: 100%;
+    color: rgb(255, 0, 217);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9em;
+    letter-spacing: 2px;
+}
+
+.submit_class {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #fa8633;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 20px 20px 5px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.submit_class:hover {
+    background-color: #f9ef7b;
+}
+
+footer {
+    height: 10vh;
+    padding-bottom: 20px;
+    margin-bottom: 1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px -5px 10px rgb(0, 0, 0, 0.3);
+}
+
+footer>p:hover {
+    color: #d3e413;
+}
+
+footer>p {
+
+    text-align: center;
+    font-family: 'system-ui';
+    letter-spacing: 3px;
+}
