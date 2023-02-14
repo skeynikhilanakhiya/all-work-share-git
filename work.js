@@ -19,16 +19,16 @@ setInterval(function () {
     slideIndex = (slideIndex + 1) % slides.length;
     slides[slideIndex].style.display = "block";
 }, 2000);
-var items = document.querySelectorAll(".item");
-var lightboxOverlay = document.querySelector("#lightbox-overlay");
-var lightboxImage = document.querySelector("#lightbox-image");
-for (var i = 0; i < items.length; i++) {
-    items[i].querySelector(".view-button").addEventListener("click", function (event) {
-        event.preventDefault();
-        lightboxOverlay.style.display = "block";
-        lightboxImage.src
-    })
-}
+// var items = document.querySelectorAll(".item");
+// var lightboxOverlay = document.querySelector("#lightbox-overlay");
+// var lightboxImage = document.querySelector("#lightbox-image");
+// for (var i = 0; i < items.length; i++) {
+//     items[i].querySelector(".view-button").addEventListener("click", function (event) {
+//         event.preventDefault();
+//         lightboxOverlay.style.display = "block";
+//         lightboxImage.src
+//     })
+// }
 const form = document.querySelector("#contactForm");
 let nameInput = document.querySelector("#name");
 let emailInput = document.querySelector("#email");
