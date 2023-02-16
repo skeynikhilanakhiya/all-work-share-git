@@ -1,0 +1,327 @@
+
+input field //
+
+<!-- <h2>Input-field values</h2>
+<input type="email" placeholder="email" v-model="email" required><br><br>
+<input type="password" placeholder="password" v-model="password" required><br><br>
+<button v-on:click="get()" type="button">Get field values</button> -->
+
+
+
+
+
+
+
+
+<!-- input-field value -->
+
+<!-- 
+
+<script>
+export default {
+    name: 'input_field_value',
+    data() {
+        return {
+            email: null,
+            password: null,
+        }
+    },
+    methods: {
+        get() {
+            console.log("value :", this.email, this.password)
+        }
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+//CALL API//
+
+
+
+
+
+
+
+<h2>Call API.</h2>
+<ul class="item" v-for ="item in list" :key="item">
+<li>{{ item.id }}</li>
+<li>{{ item.email }}</li>
+<li>{{ item.first_name }}</li>
+<!-- <li>{{ item.last_name }}</li> -->
+
+<li><img :src="item.avatar" ></li>
+
+</ul> 
+</template>
+
+<!-- Call API -->
+
+<script>
+import axios from 'axios';
+
+export default{
+    name:'app',
+    data(){
+        return{
+            list:[]
+        }
+    },
+    async mounted(){
+        let result =await axios.get("https://reqres.in/api/users?page=1");
+        console.log("api data",result.data.data);
+        this.list = result.data.data;
+    }
+}
+</script>
+
+<style scoped>
+h2 {
+    color: rgb(127, 138, 255);
+}
+.item{
+display: flex;
+}
+.item img{
+    width: 50px;
+}
+.item li{
+    display: inline-block;
+    width: 180px;
+    border: 1px solid;
+    text-align: center;
+    padding: 4px;
+}
+</style>
+
+
+
+
+
+
+//
+Checkbox 
+& 
+Radio 
+//
+
+
+
+
+<template>
+<h2>Get Checkbox & Radio Button</h2>
+<br>
+<label for="clsick">Email :</label>
+<input type="checkbox" value="email" id="clsick" v-model="tech"><br><br>
+<label for="onclick">Password :</label>
+<input type="checkbox" value="password" id="onclick" v-model="tech"><br><br>
+<label for="idd">id :</label>
+<input type="checkbox" value="id" id="idd" v-model="tech"><br><br>
+<br><br>
+<label for="student">Student :</label>
+<input type="radio" value="student" id="student" v-model="who"><br><br>
+<label for="devloper">Devloper :</label>
+<input type="radio" value="devloper" id="devloper" v-model="who"><br><br>
+<label for="both">Both of </label>
+<input type="radio" value="both" id="both" v-model="who"><br><br>
+<br><br>
+<h4>Select user information : {{ tech }}</h4>
+<h4>I Am : {{ who }}</h4>
+</template>
+
+<!-- POST METOD API -->
+
+<script>
+export default {
+    name: 'app',
+    data() {
+        return {
+            tech: [],
+            who: []
+        }
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+//IF ELSE CONDITIO//
+
+
+
+
+
+<template>
+<h2 v-if="show">If  condition</h2>
+<h2 v-else> else condition </h2>
+<button v-on:click="show =!show">Toogel</button>
+
+<br>
+</template>
+
+
+<script>
+export default {
+    name: 'app',
+    data() {
+        return {
+            show: true
+
+        }
+    }
+}
+</script>
+
+<style scoped>
+h2 {
+    color: rgb(127, 138, 255);
+}
+</style>
+
+
+
+
+
+
+
+
+// FOR LOOP //
+
+
+
+<template>
+<h2 >For Loop  </h2>
+<ul>
+    <li v-for="item in pro" :key="item">{{ item }}</li>
+</ul>
+<br>
+<br>
+<ul>
+    <li v-for="item in user" :key="item.email">
+    Name is :{{ item.name}} and email:{{ item.email }}
+    </li>
+</ul>
+</template>
+
+
+<script>
+
+export default {
+    name: 'app',
+    data(){
+        return{
+            pro:['java','php','py','html','css'],
+            user:[
+                {
+                    name:"nik",
+                    email :'nik@test.com'
+                },
+                {
+                    name:"nik1",
+                    email :'nik1@test.com'
+                },
+                {
+                    name:"nik2",
+                    email :'nik2@test.com'
+                },
+            ]
+        }
+    }
+   
+}
+</script>
+
+<style scoped>
+h2 {
+    color: rgb(127, 138, 255);
+}
+
+</style>
+
+
+
+
+
+
+
+// pareent to child components //
+
+
+
+
+
+
+
+<template>
+<h2> Pass Data To Child Components</h2>
+<Child name="nik" :user="user" :getata="getata()"></Child>
+</template>
+
+<script>
+import Child from './Child.vue'
+export default {
+    name: 'app',
+    components: {
+        Child
+    },
+    data() {
+        return {
+            user: {
+                name: 'peter',
+                email: 'peter@test.com'
+            }
+        }
+    },
+    methods:{
+        getata(){
+            console.log('Parent function called');
+            alert("hello")
+        }
+    }
+
+}
+</script>
+
+<style scoped>
+h2 {
+    color: rgb(127, 138, 255);
+}
+</style>
+
+
+//child components //
+
+
+<template>
+<h2>{{ name }}</h2>
+<h2>{{ user.name }}</h2>
+<button v-on:click="getata()">click me</button>
+</template>
+
+<script>
+export default {
+    name: 'Child-item',
+    props: {
+        name: String,
+        user: Object,
+        getata:Function
+
+    }
+}
+</script>
+
+
+
+
+

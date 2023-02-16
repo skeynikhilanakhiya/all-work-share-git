@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUP</title>
+    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.min.js">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+</head>
+
+<body>
+
+    <header id="header">
+        <nav>
+            <!-- <div class="fly-out-text"> -->
+                <!-- <p style="color: black;">Hello, I'm a fly-out text!</p> -->
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">About</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">List 1</a></li>
+                        <li><a href="#">List 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                
+            </ul>
+        <!-- </div> -->
+            <!-- <div class="topnav" id="myTopnav">
+                <ul>
+
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="dropdown">
+               <li> <a href="#">About</a></li>
+                <div class="dropdown-content">
+                    <li><a href="#">List 1</a></li>
+                    <li><a href="#">List 2</a></li>
+                </div>
+            </div>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a></li>
+            </ul>
+              </div> -->
+        
+                
+        </nav>
+    </header>   
+
+
+    <div class="w3-content w3-section" style="margin-left: 0;">
+        <!-- <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p> -->
+        <img class="mySlides w3-animate-fading" src="asset/img/1627377451_nature-1600x900.jpg" style="width:100vw">
+        <img class="mySlides w3-animate-fading" src="asset/img/nature-319.jpg" style="width:100vw">
+        <img class="mySlides w3-animate-fading" src="asset/img/Tree In Field Wallpapers 2.jpg" style="width:100vw">
+        <img class="mySlides w3-animate-fading" src="asset/img/nature-319 (1).jpg" style="width:100vw">
+    </div>
+
+
+    <section id="section3">
+        <h1>Section 3</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis bibendum lacus. Proin iaculis justo vel
+            velit tempor, vel feugiat nibh posuere.</p>
+    </section>
+
+    <div id="testimonial-slider">
+        <div class="slide">
+            <figure class="snip1390">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg" alt="profile-sample3"
+                    class="profile" />
+                    <figcaption>
+                        <h2>Eleanor Crisp</h2>
+                        <h4>UX Design</h4>
+                        <blockquote>Dad buried in landslide! Jubilant throngs fill streets! Stunned father inconsolable -
+                            demands recount!</blockquote>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="slide">
+                    <figure class="snip1390 hover"><img
+                        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg" alt="profile-sample5"
+                        class="profile" />
+                        <figcaption>
+                            <h2>Gordon Norman</h2>
+                            <h4>Accountant</h4>
+                            <blockquote>Wormwood : Calvin, how about you? Calvin : Hard to say ma'am. I think my cerebellum has
+                                just fused. </blockquote>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="slide">
+            <figure class="snip1390"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg"
+                alt="profile-sample6" class="profile" />
+                <figcaption>
+                    <h2>Sue Shei</h2>
+                    <h4>Public Relations</h4>
+                    <blockquote>The strength to change what I can, the inability to accept what I can't and the
+                        incapacity to tell the difference.</blockquote>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    <h1>Form Validation</h1>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your name">
+        <input type="email" id="email" placeholder="Your email">
+        <textarea id="message" placeholder="Your message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <!-- <button id="showModal">Services</button>
+        <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="box">
+                <span class="close-button">&times;</span>
+                <img src="asset/img/france-paris-eiffel-tower.jpg" alt="">
+                <p>This is the content of the modal</p>
+            </div>
+            <span class="close-button">&times;</span>
+            <img src="asset/img/france-paris-eiffel-tower.jpg" alt="">
+            <p>This is the content of the modal</p>
+            <span class="close-button">&times;</span>
+            <img src="asset/img/france-paris-eiffel-tower.jpg" alt="">
+            <p>This is the content of the modal</p>
+        </div>
+    </div><br><br> -->
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search for blog posts">
+        <div id="search-results"></div>
+    </div>
+    <div class="blog-posts">
+        <div class="blog-post">
+
+            <h3>Paris Post 1</h3>
+            <img src="asset/img/france-paris-eiffel-tower.jpg" alt="blog post 1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor lacinia dolor, eu congue metus
+                scele</p>
+        </div>
+        <div class="blog-post">
+            <h3>London Post 2</h3>
+            <img src="asset/img/London City Hall Photos and Wallpapers 08.jpg" alt="blog post 2">
+            <p>Vestibulum auctor lacinia enim, id tincidunt lectus euismod eu. Nunc blandit bibendum sapien, id luctus
+            </p>
+        </div>
+        <div class="blog-post">
+            <h3>Tokyo Post 3</h3>
+            <img src="asset/img/photo-1503899036084-c55cdd92da26.jpg" alt="blog post 3">
+            <p>Nam euismod sollicitudin ligula, ac bibendum ex auctor non. Aliquam erat volutpat. Nam congue euismod
+            </p>
+        </div>
+    </div>
+    <section id="section2">
+        <h1>Section 2</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis bibendum lacus. Proin iaculis justo vel
+            velit tempor, vel feugiat nibh posuere.</p>
+    </section>
+    <div class="carousel-container">
+        <div class="carousel-item">
+            <img src="asset/img/Tree In Field Wallpapers 2.jpg" alt="Image 15" width="40%" height="200px">
+            <!-- <p>Image 1 description</p> -->
+        </div>
+        <div class="carousel-item">
+            <img src="asset/img/1627377451_nature-1600x900.jpg" alt="Image 15" width="40%" height="200px">
+
+            <!-- <p>Image 2 description</p> -->
+        </div>
+        <div class="carousel-item">
+            <img src="asset/img/nature-319 (1).jpg" alt="Image 15" width="40%" height="200px">
+            
+            <!-- <p>Image 3 description</p> -->
+        </div>
+        <!-- Add more carousel items as needed -->
+    </div>
+    <br>
+    <br>
+    <button id="prev-btn">Previous</button>
+    <button id="next-btn">Next</button>
+    <br>
+    <div>
+        <h1 style="color: blue; text-align: center;border: 2px dashed rgb(27, 27, 25);">lightbox</h1>
+        <amp-lightbox id="my-lightbox" layout="nodisplay">
+            <div class="lightbox" on="tap:my-lightbox.close" role="button" tabindex="0">
+                <img src="asset/img/nature-319 (1).jpg" alt="Image 1">
+            </div>
+
+        </amp-lightbox>
+        <button on="tap:my-lightbox">
+            <img src="asset/img/nature-319.jpg" style="width:50%;height:50%;" alt="Image 1">
+        </button>
+    </div>
+    <section id="section1">
+        <h1>Section 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis bibendum lacus. Proin iaculis justo vel
+            velit tempor, vel feugiat nibh posuere.</p>
+    </section>
+    <br>
+    <h2 style="color:rgb(10, 12, 10); text-align:center">FAQ</h2>
+    <div class="layout">
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>Where is Taj Mahal located?</p>
+
+            </div>
+            <div class="accordion__answer">
+                <p>Taj Mahal is located in Agra, Uttar Pradesh.</p>
+                
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion__question">
+                <p>How many planets are there in solar system?</p>
+
+            </div>
+            <div class="accordion__answer">
+                <p>
+                    There are eight planets in solar system.
+                    Mercury, Venus, Earth, Mars, Jupiter, Saturn,
+                    Uranus, and Neptune.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        </div>
+        
+        <div id="London" class="tabcontent">
+            <h3>London</h3>
+            <img src="asset/img/London City Hall Photos and Wallpapers 08.jpg" alt="" height="200px" width="500px">
+            <p>London is the capital city of England.</p>
+        </div>
+        
+        <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <img src="asset/img/france-paris-eiffel-tower.jpg" alt="" height="200px" width="500px">
+            <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <img src="asset/img/photo-1503899036084-c55cdd92da26.jpg" alt="" height="200px" width="500px">
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+    </div>
+    <br>
+    <!-- <section class="services"> -->
+    <section class="services" id="service">
+
+        <div class="s-heading">
+            <h1>Ser<font color="#4a90e2">vic</font>es</h1>
+            <p>WE PROVIED THE 3 DIFFRENT WAY WORKER </p>
+        </div>
+        <div class="s-box-container">
+            <div class="s-box">
+                <div class="bar"></div>
+                <img alt="1" src="asset/img/0_XH3rLskyOsCqVV-j.jpg" />
+                <h1>DEVELOPER</h1>
+                <p>WORK TO DEVELOPMENT.</p>
+                <a class="s-btn" href="#service">More</a>
+            </div>
+            <div class="s-box">
+                <div class="bar"></div>
+                <img alt="2" src="asset/img/web-designer-salary.jpg" />
+                <h1>DESIGNER</h1>
+                <p>WORK TO DESIGN WEBSITE</p>
+                <a class="s-btn" href="#service">More</a>
+            </div>
+            <div class="s-box">
+                <div class="bar"></div>
+                <img alt="3" src="asset/img/qa-tester-800x504.jpg" />
+                <h1>QA</h1>
+                <p>TESTING A CODE</p>
+                <a class="s-btn" href="#service">More</a>
+            </div>
+        </div>
+    </section>
+ 
+    <button id="scroll-to-top-btn"></button><br>
+    <footer id="footer">Footer</footer>
+</body>
+<script src="asset/js/main.js"></script>
+<script>
+//      var paragraph = document.getElementsByTagName('a')[0];
+     
+
+// function textEffect(animationName) {
+//     var a = paragraph.innerHTML,
+//         chars = a.length,
+//         newText = '',
+//         animation = animationName,
+//         char,
+//         i;
+
+//     for (i = 0; i < chars; i += 1) {
+//         newText += '<i>' + a.charAt(i) + '</i>';
+//     }
+
+    
+//     paragraph.innerHTML = newText;
+
+//     var wrappedChars = document.getElementsByTagName('i'),
+//         wrappedCharsLen = wrappedChars.length,
+//         j = 0;
+
+//     function addEffect() {
+//         setTimeout(function () {
+//             wrappedChars[j].className = animation;
+//             j += 1;
+//             if (j < wrappedCharsLen) {
+//                 addEffect();
+//             }
+//         }, 100)
+//     }
+
+//     addEffect();
+// };
+
+// textEffect('fly-in-out');
+
+// function textEffect(animationName) {
+//   var links = document.getElementsByTagName('a');
+
+//   Array.from(links).forEach(function(link) {
+//     var a = link.innerHTML,
+//         chars = a.length,
+//         newText = '',
+//         animation = animationName,
+//         char,
+//         i;
+
+//     for (i = 0; i < chars; i += 1) {
+//       newText += '<i>' + a.charAt(i) + '</i>';
+    
+//     }
+
+//     link.innerHTML = newText;
+
+//     var wrappedChars = link.getElementsByTagName('i'),
+//         wrappedCharsLen = wrappedChars.length,
+//         j = 0;
+
+//     function addEffect() {
+//       setTimeout(function () {
+//         wrappedChars[j].className = animation;
+//         j += 1;
+//         if (j < wrappedCharsLen) {
+//           addEffect();
+//         }
+//       }, 100)
+//     }
+
+//     addEffect();
+//   });
+// }
+
+// textEffect('fly-in-out');
+
+</script>
+</html>
