@@ -360,6 +360,8 @@ Version:1.0
 .header.shop .topbar {
 	border: none;
 	padding: 12px 0px;
+	margin-top: -47px;
+
 }
 .header.shop .nav-inner {
 	margin-right: 188px;
